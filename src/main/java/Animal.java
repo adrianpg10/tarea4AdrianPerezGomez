@@ -13,6 +13,17 @@ public class Animal {
     private String nombre;
     private int numPatas;
 
+    public Animal(String nombre, int numPatas) {
+        this.nombre = nombre;
+        this.numPatas = numPatas;
+    }
+
+    public Animal() {
+        this.nombre="Sin nombre";
+        this.numPatas=4;
+    }
+    
+
   
  
 
