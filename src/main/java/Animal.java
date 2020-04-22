@@ -38,6 +38,11 @@ public class Animal {
     public void setNumPatas(int numPatas) {
         this.numPatas = numPatas;
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" + "nombre=" + nombre + ", numPatas=" + numPatas + '}';
+    }
     
 
   
